@@ -1,0 +1,228 @@
+{
+  "intents": [
+    {
+      "intent": "course_inquiry",
+      "patterns": [
+        "What courses are available?",
+        "Tell me about B.Tech programs",
+        "What degrees do you offer?",
+        "I want to know about courses",
+        "List all the courses",
+        "What can I study at your college?",
+        "Tell me about the engineering programs",
+        "What B.Tech specializations are there?",
+        "Do you have MBA program?",
+        "What are the available majors?"
+      ],
+      "responses": [
+        "📚 We offer B.Tech (CS, AI, ECE, Mech) - 4 years, MBA - 2 years, BCA - 3 years, BBA - 3 years. Which one interests you?",
+        "🎓 Our courses include B.Tech in Computer Science, AI & ML, Electronics, Mechanical, plus MBA, BCA, and BBA programs."
+      ]
+    },
+    {
+      "intent": "fee_inquiry",
+      "patterns": [
+        "How much is the fees?",
+        "What is the fee structure?",
+        "How much does B.Tech cost?",
+        "Tell me about fees",
+        "What are the tuition fees?",
+        "How expensive is the MBA program?",
+        "What is the cost of courses?",
+        "Fee details please",
+        "How much do I need to pay?",
+        "Scholarships available?"
+      ],
+      "responses": [
+        "💰 B.Tech: ₹1.5 Lakhs/year, MBA: ₹2 Lakhs/year, BCA: ₹80,000/year, BBA: ₹75,000/year. Scholarships available for 85%+ marks (50% off)!",
+        "💵 Fee structure: Engineering programs ₹1.5 L/year, Management ₹2 L/year. We offer merit-based scholarships up to 50%."
+      ]
+    },
+    {
+      "intent": "exam_inquiry",
+      "patterns": [
+        "When are the exams?",
+        "Tell me about exam schedule",
+        "Exam dates please",
+        "When are mid-term exams?",
+        "When do finals happen?",
+        "What is the exam pattern?",
+        "How are exams conducted?",
+        "Tell me about grading system",
+        "When are results announced?",
+        "What is the exam schedule for 2024?"
+      ],
+      "responses": [
+        "📝 Mid-term exams: March & September | Final exams: June & December | Grading: CGPA system (10 point) | Minimum 75% attendance required.",
+        "🗓️ Exams are conducted twice a year. Mid-semesters in March/September and end-semesters in June/December. Results are announced within 45 days."
+      ]
+    },
+    {
+      "intent": "placement_inquiry",
+      "patterns": [
+        "What is the placement record?",
+        "How are placements?",
+        "What companies visit?",
+        "Average package?",
+        "Tell me about job opportunities",
+        "What is the placement rate?",
+        "Highest salary offered?",
+        "Which recruiters come for placements?",
+        "Internship opportunities?",
+        "Placement statistics please"
+      ],
+      "responses": [
+        "💼 Placement Rate: 92% | Average Package: ₹7.5 LPA | Highest: ₹32 LPA | Top Recruiters: Google, Microsoft, Amazon, Flipkart, Infosys, TCS, Wipro.",
+        "🌟 Excellent placements! 92% of students get placed. Average salary ₹7.5 LPA with top companies like Google, Microsoft, and Amazon visiting campus."
+      ]
+    },
+    {
+      "intent": "hostel_inquiry",
+      "patterns": [
+        "Tell me about hostel",
+        "Hostel facilities?",
+        "Is there hostel available?",
+        "How much is hostel fees?",
+        "What are hostel amenities?",
+        "Do you have accommodation?",
+        "Hostel rules?",
+        "Room facilities?",
+        "Mess food quality?",
+        "Is hostel compulsory?"
+      ],
+      "responses": [
+        "🏠 Separate hostels for boys & girls | ₹70,000/year including 3 meals + snacks | Wi-Fi, 24/7 electricity, water, gym, common room, TV room.",
+        "🛏️ Hostel accommodation available at ₹70,000 per year. Includes AC rooms, nutritious meals, Wi-Fi, and all modern amenities. Limited seats available."
+      ]
+    },
+    {
+      "intent": "library_inquiry",
+      "patterns": [
+        "Library timings?",
+        "Tell me about library",
+        "How many books in library?",
+        "Library facilities?",
+        "Can I borrow books?",
+        "Digital library access?",
+        "What journals are available?",
+        "Library rules?",
+        "Where is the library?",
+        "Library resources?"
+      ],
+      "responses": [
+        "📚 50,000+ books, 200+ journals | Open 8 AM - 10 PM | Digital resources: IEEE, Springer, J-Gate | Issue limit: 5 books for 15 days.",
+        "📖 Our library is open from 8 AM to 10 PM. You can access thousands of books, online journals, and study spaces. Digital library available 24/7."
+      ]
+    },
+    {
+      "intent": "admission_inquiry",
+      "patterns": [
+        "How to apply for admission?",
+        "Admission process?",
+        "When is the admission deadline?",
+        "What is the eligibility?",
+        "How to get admission?",
+        "Admission requirements?",
+        "What documents needed?",
+        "Admission criteria?",
+        "When do admissions start?",
+        "How can I join?"
+      ],
+      "responses": [
+        "🎯 Admissions open! Last date: June 30th | Eligibility: B.Tech - 50% in PCM + JEE Main/KCET | Apply online at www.abcedu.in | Application fee: ₹1000.",
+        "📋 Application process: Fill online form (₹1000), submit documents (10th, 12th mark sheets), appear for counseling, pay registration fee. Apply by June 30th."
+      ]
+    },
+    {
+      "intent": "scholarship_inquiry",
+      "patterns": [
+        "Scholarship details?",
+        "How to get scholarship?",
+        "Financial aid?",
+        "What scholarships are available?",
+        "How to apply for scholarship?",
+        "Scholarship criteria?",
+        "Merit scholarships?",
+        "Need-based financial help?",
+        "Can I get fee waiver?",
+        "Scholarship benefits?"
+      ],
+      "responses": [
+        "🎓 Merit Scholarship: 50% fee waiver for 85%+ marks | Need-based: Up to 100% | Sports quota: 25% off | Defense quota | Apply through financial aid office.",
+        "🏅 We offer multiple scholarships: Merit (50% off for >85%), Need-based, Sports (25%), and Defense quotas. Contact the financial aid office for applications."
+      ]
+    },
+    {
+      "intent": "contact_inquiry",
+      "patterns": [
+        "Contact number?",
+        "College phone number?",
+        "Email address?",
+        "How to contact?",
+        "Reach out to college",
+        "Who to contact for admission?",
+        "College address?",
+        "Helpline number?",
+        "Where is college located?",
+        "Contact details please"
+      ],
+      "responses": [
+        "📞 Admission: +91-80-12345678 | Exam: +91-80-12345679 | Email: info@abcedu.in | Address: ABC Tech Park, Whitefield, Bangalore - 560066.",
+        "📧 Contact us via email at info@abcedu.in or call +91-80-12345678. Our campus is located in Whitefield, Bangalore. Visit our website at www.abcedu.in"
+      ]
+    },
+    {
+      "intent": "greeting",
+      "patterns": [
+        "Hello",
+        "Hi",
+        "Hey",
+        "Good morning",
+        "Good evening",
+        "How are you?",
+        "What's up?",
+        "Hey there"
+      ],
+      "responses": [
+        "👋 Hello! How can I help you today? Ask me about courses, fees, exams, placements, hostel, library, or admissions!",
+        "Hi there! I'm your college assistant. Feel free to ask me anything about our college, courses, fees, or campus life."
+      ]
+    },
+    {
+      "intent": "help",
+      "patterns": [
+        "Help",
+        "What can you do?",
+        "How can you help?",
+        "What questions can I ask?",
+        "Guide me",
+        "Tell me what you know",
+        "What information do you have?"
+      ],
+      "responses": [
+        "🤖 I can help with: Courses 📚, Fees 💰, Exams 📝, Placements 💼, Hostel 🏠, Library 📖, Admissions 🎯, Scholarships 🎓, Contact 📞. What would you like to know?",
+        "💡 I'm your college assistant! I can answer questions about courses, fees, exams, placements, hostel, library, admissions, and scholarships. What do you need help with?"
+      ]
+    },
+    {
+      "intent": "thanks",
+      "patterns": [
+        "Thank you",
+        "Thanks",
+        "Thanks a lot",
+        "Thank you very much",
+        "Appreciate it",
+        "Thanks for the help"
+      ],
+      "responses": [
+        "😊 You're welcome! Feel free to ask if you have any more questions.",
+        "👍 Glad I could help! Let me know if you need anything else."
+      ]
+    }
+  ],
+  "entities": {
+    "course_names": ["B.Tech", "MBA", "BCA", "BBA", "M.Tech", "Computer Science", "AI", "Electronics", "Mechanical"],
+    "months": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+    "fee_amounts": ["₹1,50,000", "₹2,00,000", "₹80,000", "₹75,000", "₹1.5 Lakhs", "₹2 Lakhs"]
+  }
+}
